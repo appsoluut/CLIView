@@ -74,7 +74,7 @@ class CLIView @JvmOverloads constructor(
     }
 
     private fun clearAnimationView() {
-        animationView.pauseAnimation()
+        animationView.cancelAnimation()
         animationView.visibility = View.GONE
     }
 
