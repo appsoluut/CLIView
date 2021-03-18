@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="CLIView">
+        <attr name="type" format="enum">
+            <enum name="image" value="0" />
+            <enum name="animation" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

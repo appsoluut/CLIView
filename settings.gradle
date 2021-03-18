@@ -1,0 +1,3 @@
+include ':cliv'
+include ':app'
+rootProject.name = "Lottie and Images"
