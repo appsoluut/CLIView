@@ -1,16 +1,35 @@
 # Compound Lottie ImageView
 
+This is a simple compound view that can either show an image or an animation using the Lottie framework. This can be used in places where you want to be able to dynamically show one of the two options as well as giving you the option to load images easily from the web using Fresco.
+
 ## Usage
 
 Include the following dependency to your `build.gradle` file:
 
-```build.gradle
+```kotlin
 dependencies {
     implementation "app.appsoluut:cliview:1.0.0"
 }
 ```
 
+You can create the view in the layout as normal; for example:
+
+```xml
+<app.appsoluut.android.cliv.CLIView
+    android:id="@+id/cli_view"
+    android:layout_width="128dp"
+    android:layout_height="48dp" />
+```
+
+## Showcase
+
+Want to be included? Create a topic in the [Show and Tell](https://github.com/appsoluut/CLIView/discussions/categories/show-and-tell) category on the discussions board.
+
 ## Credits
+
+[Lottie](https://github/airbnb/lottie-android) is created and maintained by Airbnb, Inc.
+
+[Fresco](https://github.com/facebook/fresco) is created and maintained by Facebook, Inc.
 
 Kitten image placeholders are provided by the excellent [{placekitten}](https://placekitten.com).
 
